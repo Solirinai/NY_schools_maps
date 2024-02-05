@@ -1,0 +1,17 @@
+Sources:
+https://data.gis.ny.gov/maps/b6c624c740e4476689aa60fdc4aacb8f/about
+https://www.google.com/maps/d/viewer?mid=1du0GGahRmpAPN2cJQQ2SrN5ejpw&hl=en&ll=40.715288999999984%2C-73.97991700000001&z=12
+https://www.google.com/maps/d/viewer?mid=14t5evPCNhKMvc1Gr1lNJwrK9Yl0zG6um&hl=en_US&ll=40.521654883845024%2C-73.98632049798357&z=11
+https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm
+https://data.cityofnewyork.us/Education/School-Districts/r8nu-ymqj
+
+
+Data New York City grades 3-8 New York State English Language Arts and Math State Tests results 2013-2023: https://infohub.nyced.org/reports/academics/test-results
+
+Test results 2022-2023 with schools names matching geoJSON
+Report Card Database (251.35 megabytes) 
+This Access database contains assessment results (elementary- and intermediate-level ELA, Math, and Science; Annual Regents; Total Cohort Regents; NYSESLAT; NYSAA), for the state, districts, public with charter schools, by county, and Need to Resource Capacity group.
+https://data.nysed.gov/downloads.php
+
+
+https://stackoverflow.com/questions/73534138/loop-over-geojson-features-and-add-plotly-graph-in-popup-html-string-to-each
