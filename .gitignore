@@ -164,8 +164,6 @@ cython_debug/
 web/**
 raw_data/school-ela-results-2013-2023-(public).xlsx
 raw_data/NYC_K-12_schools_public.geojson
-raw_data/school-ela-results-2013-2023-(public).xlsx
-raw_data/school-ela-results-2013-2023-(public).xlsx
 *.xlsx
-processed_data/NYCMSmap.html
+processed_data/**
 *.csv
