@@ -167,3 +167,5 @@ raw_data/NYC_K-12_schools_public.geojson
 *.xlsx
 processed_data/**
 *.csv
+*.~$lock
+*.mmap

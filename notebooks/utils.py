@@ -15,9 +15,9 @@ def match_name(name, list_names, min_score=0):
     return max_name
 
 # Function that creates a bar chart
-def create_plot(dataframe, name, columns_to_plot):
+def create_plot(dataframe, name, columns_to_plot, show = True):
     plot_data = dataframe.set_index('Year')[columns_to_plot]
-    plot_data.plot(kind='bar', stacked=True, figsize=(4,4))
+    plot_data.plot(kind='bar', stacked=True, figsize=(3,3), show = show)
     title = 'Results by years, ' + name
     plt.title(title)  # Set the title
     plt.xlabel('Year')  # X-axis label
