@@ -171,4 +171,4 @@ web/**
 /results
 /processed_data/**
 /raw_data/**
-!raw_data/sources.txt
+!raw_data/sources.md
