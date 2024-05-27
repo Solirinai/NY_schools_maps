@@ -161,13 +161,14 @@ cython_debug/
 
 **/desktop.ini
 
-web/**
-raw_data/school-ela-results-2013-2023-(public).xlsx
-raw_data/NYC_K-12_schools_public.geojson
 *.xlsx
-processed_data/**
 *.csv
 *.~$lock
 *.mmap
 *.docx
+
+web/**
 /results
+/processed_data/**
+/raw_data/**
+!raw_data/sources.txt
