@@ -12,18 +12,18 @@ def match_name(name, list_names, min_score=0):
         if score > max_score and score >= min_score:
             max_name = x
             max_score = score
-    return max_name
+    return max_name, max_score
 
 # Function that creates a bar chart
-def create_plot(dataframe, name, columns_to_plot, show = True):
+def create_plot(dataframe, name, columns_to_plot):
     plot_data = dataframe.set_index('Year')[columns_to_plot]
-    plot_data.plot(kind='bar', stacked=True, figsize=(3,3), show = show)
+    plot_data.plot(kind='bar', stacked=True, figsize=(4,4))
     title = 'Results by years, ' + name
     plt.title(title)  # Set the title
     plt.xlabel('Year')  # X-axis label
     plt.ylabel('Share of students tested')  # Y-axis label
     plt.grid(axis='y')
-    plt.legend(loc='lower left')
+    plt.legend(loc='lower left', fontsize=8)
     plt.yticks([0, 0.2, 0.4, 0.6, 0.8, 1.0], ['0%', '20%', '40%', '60%', '80%', '100%'])  # Adjust y-ticks to percentage
     plt.tight_layout()
     # Return the figure object for further use
@@ -57,7 +57,7 @@ def create_chart(dataframe, name, columns_to_plot):
     colors = [cmap(i) for i in np.linspace(0.4, 1, num_categories)]
 
     # Create a figure with a specified figure size
-    plt.figure(figsize=(2,2))  #  inches wide,  inches tall
+    plt.figure(figsize=(2.5,2.5))  #  inches wide,  inches tall
 
     plt.pie(sizes, labels = labels, colors = colors, autopct='%1.1f%%', startangle=0,
            textprops={'fontsize': 8},  # Adjust label sizes
