@@ -169,3 +169,5 @@ processed_data/**
 *.csv
 *.~$lock
 *.mmap
+*.docx
+/results
