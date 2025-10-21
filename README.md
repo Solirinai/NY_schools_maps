@@ -1,7 +1,7 @@
 # NYC, NY, NJ schools
 
 Interactive maps of all NYC public schools, NY state and NJ state schools - public and charter. 
-Include test results over past several years.
+Include test results over past several years. Data sources are cited and linked in the notebooks and on the individual maps.
 
 Maps: 
 
